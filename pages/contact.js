@@ -60,12 +60,12 @@ const Contact = () => {
           <FlexComponent>
             <Box sx={{ width: "100%", mt: 5 }}>
               <TextField
-                id='outlined'
+                id='outlined-basic'
                 defaultValue='Enter Your Name'
                 sx={{ width: "50%" }}
               />
               <TextField
-                id='outlined'
+                id='outlined-basic'
                 defaultValue='Enter Your Email Address'
                 sx={{ width: "50%" }}
               />
@@ -74,12 +74,12 @@ const Contact = () => {
           <FlexComponent>
             <Box sx={{ width: "100%", mt: 5 }}>
               <TextField
-                id='outlined'
+                id='outlined-basic'
                 defaultValue='Enter Contact Number'
                 sx={{ width: "50%" }}
               />
               <TextField
-                id='outlined'
+                id='outlined-basic'
                 defaultValue='Enter Your Company Name'
                 sx={{ width: "50%" }}
               />
