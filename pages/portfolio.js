@@ -28,7 +28,7 @@ const Portfolio = () => {
             fontSize: { sm: 30, lg: 40 },
           }}
         >
-          Contact Us
+          Portfolio
         </Typography>
       </Box>
       <Box
