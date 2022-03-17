@@ -61,12 +61,14 @@ const Contact = () => {
             <Box sx={{ width: "100%", mt: 5 }}>
               <TextField
                 id='outlined-basic'
-                defaultValue='Enter Your Name'
+                label='Enter Your Name'
+                variant='outlined'
                 sx={{ width: "50%" }}
               />
               <TextField
                 id='outlined-basic'
-                defaultValue='Enter Your Email Address'
+                variant='outlined'
+                label='Enter Your Email Address'
                 sx={{ width: "50%" }}
               />
             </Box>
@@ -75,12 +77,14 @@ const Contact = () => {
             <Box sx={{ width: "100%", mt: 5 }}>
               <TextField
                 id='outlined-basic'
-                defaultValue='Enter Contact Number'
+                variant='outlined'
+                label='Enter Contact Number'
                 sx={{ width: "50%" }}
               />
               <TextField
                 id='outlined-basic'
-                defaultValue='Enter Your Company Name'
+                variant='outlined'
+                label='Enter Your Company Name'
                 sx={{ width: "50%" }}
               />
             </Box>
