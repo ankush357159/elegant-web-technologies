@@ -4,8 +4,11 @@ import React from "react";
 
 export default function Custom404() {
   return (
-    <Box sx={{ backgroundColor: "#1bc9cf", pb: "15%" }}>
-      <NextSeo title='Page Not Found' description='Page Not Found' />
+    <Box sx={{ backgroundColor: "#1bc9cf", pb: "15%", mb: -5 }}>
+      <NextSeo
+        title='Elegant Web Technologies Navi Mumbai'
+        description='Elegant Web Technologies Navi Mumbai'
+      />
       <Box
         sx={{
           textAlign: "center",

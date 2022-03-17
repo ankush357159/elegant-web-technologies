@@ -4,7 +4,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <Box sx={{ backgroundColor: "#1bc9cf", pb:"15%" }}>
+    <Box sx={{ backgroundColor: "#1bc9cf", pb: "15%", mb: -5 }}>
       <Box sx={{ mx: 5 }}>
         <NextSeo
           title='Portfolio of Elegant Web Technologies'

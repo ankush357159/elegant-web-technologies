@@ -4,7 +4,7 @@ import { NextSeo } from "next-seo";
 import React from "react";
 import CompanyProfile from "../src/components/Profile/CompanyProfile";
 
-const aboutus = () => {
+const AboutUs = () => {
   return (
     <>
       <NextSeo
@@ -53,6 +53,7 @@ const aboutus = () => {
                   mr: 2,
                   height: 50,
                   width: { xs: "100%", sm: 200, md: 300, lg: 300 },
+                  backgroundColor: "#fa9e00",
                 }}
               >
                 Company Profile
@@ -65,9 +66,10 @@ const aboutus = () => {
                   borderRadius: 0,
                   ml: 2,
                   mr: 2,
-                  mb:2,
+                  mb: 2,
                   height: 50,
                   width: { xs: "100%", sm: 200, md: 300, lg: 300 },
+                  backgroundColor: "#fa9e00",
                 }}
               >
                 Why Elegant Web Technologies
@@ -83,7 +85,7 @@ const aboutus = () => {
   );
 };
 
-export default aboutus;
+export default AboutUs;
 
 // aboutus.getLayout = function PageLayout(page) {
 //   //This function defines components where Header and Footer components are not required.
